@@ -1,0 +1,201 @@
+
+
+body {
+	background: #ffffff;
+	background-image: url( "../images/concrete_seamless.png");
+	width: 960px;
+	height: 100%;
+	margin-top: 130px;
+	font-size: 14px;
+	color: #777777;
+	font-family: helvetica;
+	background-repeat: repeat;
+	
+}
+
+
+header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	padding: 0px;
+	background: #ffffff;
+	margin: 0px; 
+	height: 95px;
+	border: 2px solid #cccccc;
+}
+
+#heading { 
+	position: relative;
+	background: #4aaaa5;
+	color: #ffffff;
+	padding: 31px;
+	text-align: center;
+	font-family: 'Georgia';
+	display: inline-block;
+	margin-left: 155px;
+	margin-top: 0px; 
+}	
+
+
+
+.headerMenu {
+ 	position: absolute;
+	left: 920px;
+	top: 0px;
+ 	background: #ffffff;
+ 	padding: 32px;
+
+ }
+
+#right { 
+	position: relative;
+	width: 55px;
+	float: left;
+}
+
+#middle {
+	position: relative;
+	width: 70px;
+	float: left;
+}
+
+#left {
+	position: relative;
+	width: 55px;
+	float: left;
+}
+
+.tealTitle {
+	color: #4aaaa5;
+	font-family:'Georgia';
+}
+
+.contentText{
+	/*position:relative;*/
+	font-family: helvetica;
+	font=size:14px;
+	line-height: 27px;
+	/*float:left;
+	word-wrap: normal;*/
+}
+
+
+.contentBorder{
+	width:100%;
+	height:1px;
+	background-color: #dddddd;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.contentWrap {
+	float:left;
+	position: relative;
+	margin-right: 20px;
+}
+
+.contentArea {	
+	position: absolute;
+	left: 100px;
+	right: 100px;	
+}
+
+
+.wrapper {
+	width: 650px;
+	margin-left: 55px;	
+}
+
+
+.aboutMeTile {
+	width: 650px;
+	position: absolute;
+	top: 50%;
+
+}
+.sideBarTile {
+	width: 270px;
+	right: 0px;
+	left: 850px;
+	position: absolute;
+
+}
+
+.contentTiles {
+	background: #ffffff;
+	border-width: 1px;
+	border-color: #cccccc;
+	padding: 20px;
+ }
+
+.socialIcons{
+
+	position:relative;
+	margin-right: 2px;
+	padding-bottom: 10px;
+
+}
+
+#linkedIn {
+	position: relative;
+	width: 55px;
+	float: left;
+	top: 10;
+}
+
+#facebook {
+	position: relative;
+	width: 55px;
+	float: left;
+	top: 10;
+}
+
+#instagram {
+	position: relative;
+	width: 55px;
+	float: left;
+	top: 10;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background: #666666;
+	padding: 30px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: #b9bec4;
+	height: 20px;	
+	left: 0px;
+	border-top: thick solid #4aaaa5;
+}
+
+
+
+/* Colors: 
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and 
+all text besides the headings) = #777777
+
+Main header background color: #ffffff
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+Fonts:
+Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;
+All other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+Dimensions:
+The entire content area is 960px wide.
+The main section content is 650px wide.
+The sidebar is 270px wide.
+Pro-tip. Use the Page Ruler extension to measure the size of elements
